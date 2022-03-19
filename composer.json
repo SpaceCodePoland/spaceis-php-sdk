@@ -1,0 +1,22 @@
+{
+  "name": "spacecode.pl/spaceis-php-sdk",
+  "description": "PHP sdk for SpaceIs.pl's API v3",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patryk Vizauer",
+      "email": "patryk@spacecode.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SpaceCode\\SpaceIs\\": "src"
+    }
+  }
+}
